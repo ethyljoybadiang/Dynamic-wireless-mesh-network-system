@@ -1,2 +1,9 @@
 # Dynamic-mesh-network-system
 Undergraduate thesis
+
+Title: Point Cloud Transfer using Dynamic Wireless Mesh Network
+Published in: 2023 IEEE 15th International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)
+DOI: 10.1109/HNICEM60674.2023.10589110
+
+Abstract:
+This study presents the development and evaluation of a dynamic wireless mesh network (DWMN) system designed to transmit point-cloud data. The system utilizes Raspberry Pi 4B as a server-client node that acts as both a client and access point that can receive, process, and send data. Gzip compression employed file size reduction, thereby reducing latency and increasing bandwidth in data hopping. Utilizing Open-Shortest Path First and DWMN Configuration Protocols, each node contains the routing path of its succeeding nodes-main server contains the whole network's routing path. In a node request, the main server/server-client would locate the direct node containing the requested node-this goes on until it locates the requested node and starts compressing and sending the compressed file to its corresponding server node until it reaches the main server. The system is evaluated by comparing the compressed and decompressed files and latency of data hopping from the main server request to receiving of the file by the main server. The CRC-32 algorithm was used to assess the variation between the two files. The findings indicate that the file received from the main server matched the file sent by the client. This study successfully developed a dynamic wireless mesh network system capable of wireless hopping point-cloud data from server-client nodes to a main server. This system allows data transmission that has reduced latency, increased bandwidth, and increased network security.
